@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veeam Test Task</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=ES+Build:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<body>
+  <!-- HEADER BLOCK -->
+  <section class="header">
+    <div class="header__background">
+      <div class="header__hero">
+        <div class="header__content">
+          <!-- Logos element -->
+          <div class="header__logos">
+            <img src="./images/logo-veeam.png" alt="Veeam Logo" class="header__logo header__logo--veeam">
+            <img src="./images/logo-cg.png" alt="Conversational Geek Logo" class="header__logo header__logo--cg">
+          </div>
+          <!-- Info element: contains text and cover image -->
+          <div class="header__info">
+            <div class="header__text">
+              <p class="header__tagline">MINI E-BOOK</p>
+              <h1 class="header__title">Conversational Microsoft 365 Recovery Best Practices</h1>
+              <p class="header__author">By Brien Posey – Microsoft MVP</p>
+            </div>
+            <div class="header__cover">
+              <div class="header__cover-bg">
+                <img src="./images/image_wrapper.png" alt="Cover of Conversational Microsoft 365 Recovery Best Practices" class="header__cover-img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Form element inside the header block -->
+        <div id="form-section" class="header__form" >
+          <form class="form form--download">
+            <h2 class="form__title">Register to download</h2>
+            <input type="text" class="form__input form__input--text" placeholder="First name*">
+            <input type="text" class="form__input form__input--text" placeholder="Last name*">
+            <input type="email" class="form__input form__input--email" placeholder="Business Email*">
+            <div class="input-group">
+              <input type="tel" id="phone-input" class="form__input form__input--tel" name="phone" placeholder="123 456 789">
+              <label for="phone-input" class="form__input-tel-label">Phone*</label>
+            </div>            
+            <input type="text" class="form__input form__input--text" placeholder="Company*">
+            <div class="form__select-wrapper">
+              <select class="form__input form__input--select">
+                <option>Country*</option>
+              </select>
+            </div>
+            <div class="form__select-wrapper">
+              <select class="form__input form__input--select">
+                <option>State*</option>
+              </select>
+            </div>
+            <p class="form__disclaimer">
+              By submitting, you are agreeing to have your personal information managed in accordance with the terms of Veeam's 
+              <a href="#" class="form__link">Privacy Notice.</a>
+            </p>
+            <button type="submit" class="form__button form__button--primary">Read Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LAYOUT BLOCK -->
+  <section class="layout">
+    <div class="layout__content">
+      <!-- Introductory text element -->
+      <div class="layout__intro">
+        <h2 class="layout__title">Recoverability isn't a given with Microsoft 365</h2>
+        <p class="layout__text">
+          The fact that organizations need to back up their Microsoft 365 deployments has been well established. As important as backups might be, however, there is one critical item that always seems to get left out of the conversation. That item is recoverability.
+        </p>
+      </div>
+      <!-- Details element: splits cover image and additional information -->
+      <div class="layout__details">
+        <div class="layout__cover">
+          <div class="layout__cover-img-wrapper">
+            <img src="./images/ebook-cover.png" alt="Conversational Microsoft 365 Recovery Best Practices" class="layout__cover-img">
+          </div>
+        </div>
+        <div class="layout__info">
+          <h2 class="layout__info-title">
+            Microsoft 365 data recovery capabilities vary widely from one backup application to another.
+          </h2>
+          <p class="layout__info-description">
+            Download this mini e-book to learn:
+          </p>
+          <ul class="layout__features">
+            <li class="layout__feature">What’s built into Microsoft 365 and when a third party backup is needed</li>
+            <li class="layout__feature">Nine best practices for Microsoft 365 data recovery</li>
+            <li class="layout__feature">Key recovery considerations when choosing how and who will recover your Microsoft 365 data</li>
+          </ul>
+          <button class="layout__button">Read Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2 class="features__title">Objectives</h2>
+    <div class="features__list">
+      
+      <div class="features__item">
+        <img src="./images/icons/thumbs-up-icon.svg" alt="Generate leads" class="features__icon">
+        <p class="features__text">Generate leads</p>
+      </div>
+  
+      <div class="features__item">
+        <img src="./images/icons/loyalty-icon.svg" alt="Increase customer loyalty" class="features__icon">
+        <p class="features__text">Increase customer loyalty</p>
+      </div>
+  
+      <div class="features__item">
+        <img src="./images/icons/sales-icon.svg" alt="Achieve a quicker sales cycle" class="features__icon">
+        <p class="features__text">Achieve a quicker sales cycle</p>
+      </div>
+  
+    </div>
+  
+  </section>
+  <footer class="footer">
+    <!-- Footer Content Wrapper -->
+    <div class="footer__content">
+      
+      <!-- Footer Text and Links -->
+      <div class="footer__text">
+        <p class="footer__paragraph">© 2023 Veeam® Software</p>
+        <a href="#" class="footer__link">Privacy Policy & Cookies</a>
+        <a href="#" class="footer__link">EULA</a>
+        <a href="#" class="footer__link">Licensing Policy</a>
+      </div>
+  
+      <!-- Social Media Icons -->
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><img src="./images/icons/instagram-icon.svg" alt="Instagram"></a>
+        <a href="#" class="footer__icon"><img src="./images/icons/tw-icon.svg" alt="Twitter/X"></a>
+        <a href="#" class="footer__icon"><img src="./images/icons/facebook-icon.svg" alt="Facebook"></a>
+        <a href="#" class="footer__icon"><img src="./images/icons/linkedin-icon.svg" alt="LinkedIn"></a>
+        <a href="#" class="footer__icon"><img src="./images/icons/spiceworks-icon.svg" alt="Spiceworks"></a>
+        <a href="#" class="footer__icon"><img src="./images/icons/youtube-icon.svg" alt="YouTube"></a>
+      </div>
+  
+    </div>
+
+  </footer>
+  
+  <!-- Decorative Image Positioned Relative to Body -->
+  <div class="decorative-image">
+    <img src="./images/decorative-image.png" alt="Decorative pattern">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
