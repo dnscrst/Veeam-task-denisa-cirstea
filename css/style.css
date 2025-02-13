@@ -593,7 +593,7 @@ body {
     width: 100%;
   }
   .footer__link, .footer__paragraph {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 @media (max-width: 590px) {
